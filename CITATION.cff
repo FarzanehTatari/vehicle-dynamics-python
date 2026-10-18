@@ -10,6 +10,7 @@ type: software
 version: "0.1.0"
 date-released: "2026-10-17"
 license: MIT
+doi: "10.5281/zenodo.23445678"
 repository-code: "https://github.com/FarzanehTatari/vehicle-dynamics-python"
 keywords:
   - vehicle dynamics

@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Dependencies: numpy](https://img.shields.io/badge/dependencies-numpy-informational.svg)](pyproject.toml)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23445678-blue.svg)](https://doi.org/10.5281/zenodo.23445678)
 
 ![Linear vs Pacejka tyres](assets/linear_vs_pacejka.png)
 
