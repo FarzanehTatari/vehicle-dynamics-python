@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "vehicle-dynamics-python: Single-track vehicle models for control and reinforcement learning"
+abstract: >-
+  Linear, path-error, and nonlinear single-track (bicycle) vehicle models
+  with linear and Pacejka tyres, numerical linearization, exact
+  discretization, standard open-loop steering maneuvers, and a test suite
+  that checks the physics.
+type: software
+version: "0.1.0"
+date-released: "2026-10-17"
+license: MIT
+repository-code: "https://github.com/FarzanehTatari/vehicle-dynamics-python"
+keywords:
+  - vehicle dynamics
+  - bicycle model
+  - single-track model
+  - model predictive control
+  - reinforcement learning
+  - autonomous vehicles
+  - Pacejka
+authors:
+  - family-names: Tatari
+    given-names: Farzaneh
+    orcid: "https://orcid.org/0000-0001-5176-3372"

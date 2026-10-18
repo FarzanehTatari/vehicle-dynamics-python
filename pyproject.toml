@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vehicle-dynamics-python"
+version = "0.1.0"
+description = "Single-track (bicycle) vehicle models for control and reinforcement learning: linear, path-error, and nonlinear with Pacejka tyres."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Farzaneh Tatari" }]
+keywords = ["vehicle dynamics", "bicycle model", "single-track model", "MPC", "reinforcement learning", "autonomous vehicles", "Pacejka"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.6"]
+dev = ["pytest>=7.0", "ruff>=0.5", "matplotlib>=3.6"]
+
+[project.urls]
+Homepage = "https://github.com/FarzanehTatari/vehicle-dynamics-python"
+Repository = "https://github.com/FarzanehTatari/vehicle-dynamics-python"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vehicle_dynamics"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
