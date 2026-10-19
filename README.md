@@ -2,6 +2,7 @@
 
 **Single-track (bicycle) vehicle models for control and reinforcement learning.** Linear, path-error, and nonlinear models with a Pacejka tyre, plus linearization, discretization, standard steering maneuvers, and tests that check the physics.
 
+[![tests](https://github.com/FarzanehTatari/vehicle-dynamics-python/actions/workflows/tests.yml/badge.svg)](https://github.com/FarzanehTatari/vehicle-dynamics-python/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Dependencies: numpy](https://img.shields.io/badge/dependencies-numpy-informational.svg)](pyproject.toml)
